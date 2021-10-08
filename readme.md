@@ -14,6 +14,8 @@ You can then export all of the episodes set in the future to an iCal file which 
 
 There is also a live calendar link available in the API for calendar software that accepts an iCal URL.
 
+This app is deployed on [Cloudflare Pages](https://pages.cloudflare.com/) and the API uses [Cloudflare Workers](https://workers.cloudflare.com/) and [Workers KV](https://www.cloudflare.com/en-gb/products/workers-kv/).
+
 [You can view the corresponding API in GitHub here.](https://github.com/joebailey26/tv-shows-workers-api)
 
 [You can view the live API here.](https://tv-shows-api.joebailey.workers.dev)
